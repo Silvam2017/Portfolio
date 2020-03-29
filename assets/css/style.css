@@ -57,8 +57,18 @@ p {
     line-height: 1.5;
 }
 
+.portrait {
+    float: right;
+}
 section {
     padding: 50px;
+}
+
+article h2 {
+    position: relative;
+    padding-top: 80px;
+    font-weight: 900; 
+    font-size: 40px;
 }
 
 .hero {
@@ -219,7 +229,9 @@ footer h2 {
 
 footer h4 {
    flex: auto;
+   margin-top: 12px;
    padding-left: 20px;
+   padding-top: 8px;
 }
 
 .white-text {
@@ -234,8 +246,8 @@ footer h4 {
     }
 
     header h1 {
-        width: 100%;
-        text-align: center;
+        text-align: left;
+        padding-left: 20px;
     }
       
     header nav ul {
