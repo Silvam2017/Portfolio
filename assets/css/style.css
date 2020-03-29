@@ -26,6 +26,7 @@ body {
 .header h1 {
     display: inline-block;
     font-size: 48px;
+    padding: 0 10px 0 10px;
     background-color: var(--header-name-color);
 }
 
@@ -52,6 +53,12 @@ a {
 
 p {
     font-size: 20px;
+    padding: 50px;
+    line-height: 1.5;
+}
+
+section {
+    padding: 50px;
 }
 
 .hero {
@@ -68,6 +75,10 @@ p {
     padding: 20px;
 }
 
+.about-me {
+    margin-bottom: 10px;
+}
+
 .about-me h2 {
     text-align: left;
     float: left;
@@ -75,7 +86,7 @@ p {
 }
 
 .about-me p {
-    margin-left: 20px;
+    margin-left: 200px;
     padding-left: 20px;
     border-left: 3px ridge var(--contact-border);
 }
@@ -84,6 +95,10 @@ p {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
+}
+
+.work {
+    margin-bottom: 10px;
 }
 
 .work h2 {
@@ -96,9 +111,10 @@ p {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
     grid-gap: 10px;
-    grid-auto-flow: dense;
+    grid-auto-flow: column;
     padding-left: 20px;
-    border-left: 3px ridge var(--contact-border);;
+    border-left: 3px ridge var(--contact-border);
+    margin-left: 200px;
 }
 
 .grid-item {
@@ -166,21 +182,74 @@ p {
 }
 
 .contact-me {
-    margin-bottom: 20px;
     display: flex;
     text-align: center;
 }
 
 .contact-me > * {
     flex: 1;
-    margin: 15px;
 }
 
 .contact-me h2 {
     text-align: center;
-    border-right: 3px ridge var(--contact-border);;
 }
 
 .contact-me h4 {
     border-bottom: 3px ridge var(--contact-border);
+    margin-left: 200px;
+}
+
+.phone-number {
+    padding-left: 20px;
+    border-left: 3px ridge var(--contact-border);
+}
+
+.black-text {
+    color: #000000;
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative;
+    }
+
+    header h1 {
+        width: 100%;
+        text-align: center;
+    }
+      
+    header nav ul {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+    }
+    
+    header nav ul li a {
+        font-size: 20px;
+    }
+    
+    section {
+        padding: 30px 15px;
+    }
+
+    .hero {
+        width: 100%;
+    }
+
+    .article {
+        text-align: center;
+        width: 100%;
+    }
+
+    .grid-container {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .grid-item {
+        transform: none;
+        writing-mode: unset;
+    }
+
 }
