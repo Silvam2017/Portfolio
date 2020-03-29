@@ -166,7 +166,7 @@ article h2 {
 .item-3 {
     grid-column: 3;
     grid-row: 2;
-    background-image: url(../assets/images/250.png);
+    background-image: url(../images/250.png);
     background-position: center;
     height: 150px;
     justify-content: space-evenly;
