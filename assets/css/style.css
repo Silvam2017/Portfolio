@@ -146,7 +146,7 @@ article h2 {
 .item-1 {
     grid-column: 1 / span 2;
     grid-row: 1 / span 2;
-    background-image: url(../images/Horiseon-Small.PNG);
+    background-image: url(../../assets/images/Horiseon-Small.png);
     background-position: top;
     height: 300px;
     justify-content: space-evenly;
@@ -156,7 +156,7 @@ article h2 {
 .item-2 {
     grid-column: 3;
     grid-row: 1;
-    background-image: url(../images/Run-Buddy-Small.PNG);
+    background-image: url(../../assets/images/Run-Buddy-Small.png);
     background-position: top;
     height: 150px;
     justify-content: space-evenly;
@@ -166,7 +166,7 @@ article h2 {
 .item-3 {
     grid-column: 3;
     grid-row: 2;
-    background-image: url(../images/250.png);
+    background-image: url(../assets/images/250.png);
     background-position: center;
     height: 150px;
     justify-content: space-evenly;
@@ -200,15 +200,6 @@ article h2 {
 
 .contact-me > * {
     flex: 1;
-}
-
-.contact-me h2 {
-    text-align: center;
-}
-
-.contact-me h4 {
-    border-bottom: 3px ridge var(--contact-border);
-    margin-left: 200px;
 }
 
 .phone-number {
