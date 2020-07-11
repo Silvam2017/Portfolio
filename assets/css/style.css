@@ -60,6 +60,12 @@ p {
 .portrait {
     float: right;
 }
+
+#pic {
+    width: 148.5px;
+    height: 264px;
+}
+
 section {
     padding: 50px;
 }
@@ -146,7 +152,7 @@ article h2 {
 .item-1 {
     grid-column: 1 / span 2;
     grid-row: 1 / span 2;
-    background-image: url(https://raw.githubusercontent.com/Silvam2017/Portfolio/master/assets/images/Horiseon-Small.png);
+    background-image: '/images/movie-ranker.png';
     background-position: top;
     height: 300px;
     justify-content: space-evenly;
@@ -166,8 +172,8 @@ article h2 {
 .item-3 {
     grid-column: 3;
     grid-row: 2;
-    background-image: url(../images/250.png);
-    background-position: center;
+    background-image: url(https://raw.githubusercontent.com/Silvam2017/Portfolio/master/assets/images/Horiseon-Small.png);
+    background-position: top;
     height: 150px;
     justify-content: space-evenly;
     align-items: flex-start;
@@ -176,8 +182,8 @@ article h2 {
 .item-4 {
     grid-column: 1;
     grid-row: 3;
-    background-image: url(../images/250.png);
-    background-position: center;
+    background-image: url(https://raw.githubusercontent.com/Silvam2017/Portfolio/master/assets/images/Run-Buddy-Small.png);
+    background-position: top;
     height: 150px;
     justify-content: space-evenly;
     align-items: flex-start;
