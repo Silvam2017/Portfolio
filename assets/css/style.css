@@ -152,8 +152,8 @@ article h2 {
 .item-1 {
     grid-column: 1 / span 2;
     grid-row: 1 / span 2;
-    background-image: '/images/movie-ranker.png';
-    background-position: top;
+    background-image: url(https://raw.githubusercontent.com/Silvam2017/SilvaFolio/master/assets/images/movie-ranker-small.png);
+    background-position: center;
     height: 300px;
     justify-content: space-evenly;
     align-items: flex-start;
@@ -162,8 +162,8 @@ article h2 {
 .item-2 {
     grid-column: 3;
     grid-row: 1;
-    background-image: url(https://raw.githubusercontent.com/Silvam2017/Portfolio/master/assets/images/Run-Buddy-Small.png);
-    background-position: top;
+    background-image: url(https://raw.githubusercontent.com/Silvam2017/SilvaFolio/master/assets/images/the-informed-artist-small.png);
+    background-position: center;
     height: 150px;
     justify-content: space-evenly;
     align-items: flex-start;
